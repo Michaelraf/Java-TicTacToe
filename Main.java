@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import controller.Game;
+// import test.Test;
 
 public class Main {
 
@@ -10,5 +11,9 @@ public class Main {
         game.intro(s);
         game.play(s);
         s.close();
+
+
+        // Test test = new Test();
+        // test.run();
     }
 }
